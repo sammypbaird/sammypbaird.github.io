@@ -27,6 +27,9 @@ collections:
     permalink: /piano/:path/
   watercolor:
     output: true
-    permalink: /watercolor/:path/
+    permalink: /portfolio/watercolor/:path/
+  charcoal:
+    output: true
+    permalink: /portfolio/charcoal/:path/
 
 

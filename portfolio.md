@@ -1,6 +1,7 @@
 ---
 layout: page
 title: portfolio
+menu: true
 permalink: /portfolio/
 ---
 
@@ -27,7 +28,7 @@ permalink: /portfolio/
 
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a href="{{ site.baseurl }}{{ project.portfolioUrl }}">
         {% if project.img %}
         <img class="thumbnail" src="{{ project.img }}"/>
         {% else %}

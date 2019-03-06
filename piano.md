@@ -3,6 +3,7 @@ layout: page
 permalink: /piano/
 title: piano
 description: Piano compositions
+menu: true
 ---
 
 <ul class="post-list">

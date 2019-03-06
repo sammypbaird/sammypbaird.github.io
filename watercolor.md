@@ -1,15 +1,11 @@
 ---
 layout: page
-permalink: /watercolor/
-title: watercolor
-description: Watercolor paintings
+permalink: /portfolio/watercolor/
+title: Watercolors
 ---
 
 <ul class="post-list">
-{% for composition in site.watercolor reversed %}
-    <li>
-        <h2><a class="poem-title" href="{{ composition.url | prepend: site.baseurl }}">{{ composition.title }}</a></h2>
-        <p class="post-meta">{{ composition.date | date: '%B %-d, %Y' }}</p>
-      </li>
+{% for piece in site.watercolor %}
+	{% include portfolioPreview.html %}
 {% endfor %}
 </ul>
