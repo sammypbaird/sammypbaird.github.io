@@ -25,5 +25,8 @@ collections:
   piano:
     output: true
     permalink: /piano/:path/
+  watercolor:
+    output: true
+    permalink: /watercolor/:path/
 
 
