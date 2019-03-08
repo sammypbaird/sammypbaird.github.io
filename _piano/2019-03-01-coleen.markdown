@@ -1,6 +1,7 @@
 ---
 layout: piano
 title: Coleen
+image: coleen.png
 googleFileId: 1_BdGPu6KEXZsiG3U_NMdl1pjMtfiX7F-
 ---
 
