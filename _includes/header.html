@@ -8,11 +8,15 @@
         <!-- {{ site.title }} instead of blog -->
        <!-- <a class="page-link" href="{{ site.baseurl }}/">blog</a>-->
 		<a class="page-link" href="{{site.url}}"/>home</a>
-        {% for page in site.pages %}
-          {% if page.title and page.menu %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
+		<!--<a class="page-link" href="{{site.url}}"/>about</a>-->
+		<a class="page-link" href="{{site.baseurl}}/piano"/>piano</a>
+		<a class="page-link" href="{{site.baseurl}}/portfolio"/>portfolio</a>
+        
+		&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+		
+		<a class="page-link" href="{{site.baseurl}}/portfolio"/>carolyn</a>
+		<a class="page-link" href="{{site.baseurl}}/portfolio"/>megan</a>
+		<a class="page-link" href="{{site.baseurl}}/portfolio"/>sarah</a>
 
       </div>
     </nav>

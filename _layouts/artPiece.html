@@ -1,6 +1,24 @@
 ---
 layout: default
 ---
+
+{% if page.collection %}
+    {% assign links = site[page.collection]  %}
+{% endif %}
+
+{% for link in links %}
+	{% if link.title == page.title %}
+		{% unless forloop.first %}
+			{% assign prev = tmpprev %}
+		{% endunless %}
+		{% unless forloop.last %}
+			{% assign next = links[forloop.index] %}
+		{% endunless %}
+	{% endif %}
+	{% assign tmpprev = link %}
+{% endfor %}
+
+
 <div class="post">
 
   <header class="post-header">
@@ -10,7 +28,13 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-	<img class="portfolioimage-800" src="{{ site.baseurl }}/img/{{ page.filename }}" alt="" title="{{page.title}}"/>
+	{% if prev %}<a href="{{ prev.url}}" class="prevnext">&lt; Previous</a>{% endif %}
+    {% if next %}<a href="{{ next.url}}" class="prevnext">Next &gt;</a>{% endif %}
+	<a href="{{ site.baseurl }}/portfolio/watercolor">
+		<img class="portfolioimage-1000" src="{{ site.baseurl }}/img/{{ page.filename }}" alt="" title="{{page.title}}"/>
+	</a>
+	<p>
+	To view full size image, click 
+	<a target="_blank" href="{{ site.baseurl }}/img/{{ page.filename }}">here.</a>
   </article>
-
 </div>
