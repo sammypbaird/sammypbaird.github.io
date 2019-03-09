@@ -31,5 +31,13 @@ collections:
   charcoal:
     output: true
     permalink: /portfolio/charcoal/:path/
-
+  carolyn:
+    output: true
+    permalink: /carolyn/:path/
+  megan:
+    output: true
+    permalink: /megan/:path/
+  sarah:
+    output: true
+    permalink: /sarah/:path/
 
