@@ -1,7 +1,7 @@
 <li>
-        <h2><a class="poem-title" href="{{ piece.url | prepend: site.baseurl }}">{{ piece.title }}</a></h2>
-        <p class="post-meta">{{ piece.date | date: '%B %-d, %Y' }}</p>
-		<a href="{{ piece.url | prepend: site.baseurl }}">
-			<img class="portfolioimage-600" src="{{ site.baseurl }}/img/{{ piece.filename }}" alt="" title="{{page.title}}"/>
-		</a>
-      </li>
+	<h2><a class="poem-title" href="{{ piece.url | prepend: site.baseurl }}">{{ piece.title }}</a></h2>
+	<p class="post-meta">{{ piece.date | date: '%B %-d, %Y' }}</p>
+	<a href="{{ piece.url | prepend: site.baseurl }}">
+		<img class="portfolioimage-600" src="{{ site.baseurl }}/img/{{ piece.filename }}" alt="" title="{{page.title}}"/>
+	</a>
+</li>

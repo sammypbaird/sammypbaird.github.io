@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /megan
-title: Megan
+title: megan
 ---
 
 <ul class="post-list">

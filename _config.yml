@@ -40,4 +40,27 @@ collections:
   sarah:
     output: true
     permalink: /sarah/:path/
+    
+defaults:
+  - scope:
+      path: ""
+      type: "megan"
+    values:
+      folder: "megan"
+  - scope:
+      path: ""
+      type: "carolyn"
+    values:
+      folder: "carolyn"
+  - scope:
+      path: ""
+      type: "sarah"
+    values:
+      folder: "sarah"
+  - scope:
+      path: ""
+      type: "watercolor"
+    values:
+      folder: "watercolor"
+      grandfolder: "portfolio"
 

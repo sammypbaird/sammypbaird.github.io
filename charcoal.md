@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /portfolio/charcoal/
-title: Charcoal
+title: charcoal
+folder: portfolio
 ---
 
 <ul class="post-list">

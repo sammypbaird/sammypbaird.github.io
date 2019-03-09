@@ -1,7 +1,8 @@
 ---
 layout: page
 permalink: /portfolio/watercolor/
-title: Watercolors
+title: watercolor
+folder: portfolio
 ---
 
 <ul class="post-list">

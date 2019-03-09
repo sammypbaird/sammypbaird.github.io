@@ -30,9 +30,7 @@ layout: default
     {{ content }}
 	{% if prev %}<a href="{{ prev.url}}" class="prevnext">&lt; Previous</a>{% endif %}
     {% if next %}<a href="{{ next.url}}" class="prevnext">Next &gt;</a>{% endif %}
-	<a href="{{ site.baseurl }}/portfolio/watercolor">
-		<img class="portfolioimage-1000" src="{{ site.baseurl }}/img/{{ page.filename }}" alt="" title="{{page.title}}"/>
-	</a>
+	<img class="portfolioimage-1000" src="{{ site.baseurl }}/img/{{ page.filename }}" alt="" title="{{page.title}}"/>
 	<p>
 	To view full size image, click 
 	<a target="_blank" href="{{ site.baseurl }}/img/{{ page.filename }}">here.</a>

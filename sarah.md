@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /sarah
-title: Sarah
+title: sarah
 ---
 
 <ul class="post-list">
