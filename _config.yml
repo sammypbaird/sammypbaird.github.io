@@ -28,6 +28,9 @@ collections:
   watercolor:
     output: true
     permalink: /portfolio/watercolor/:path/
+  pencil:
+    output: true
+    permalink: /portfolio/pencil/:path/
   charcoal:
     output: true
     permalink: /portfolio/charcoal/:path/
@@ -62,5 +65,11 @@ defaults:
       type: "watercolor"
     values:
       folder: "watercolor"
+      grandfolder: "portfolio"
+  - scope:
+      path: ""
+      type: "pencil"
+    values:
+      folder: "pencil"
       grandfolder: "portfolio"
 

@@ -27,10 +27,11 @@ layout: default
   </header>
 
   <article class="post-content">
-    {{ content }}
 	{% if prev %}<a href="{{ prev.url}}" class="prevnext">&lt; Previous</a>{% endif %}
     {% if next %}<a href="{{ next.url}}" class="prevnext">Next &gt;</a>{% endif %}
 	<img class="portfolioimage-1000" src="{{ site.baseurl }}/img/{{ page.filename }}" alt="" title="{{page.title}}"/>
+	<p>
+	{{ content }}
 	<p>
 	To view full size image, click 
 	<a target="_blank" href="{{ site.baseurl }}/img/{{ page.filename }}">here.</a>
