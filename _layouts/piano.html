@@ -8,10 +8,12 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
   
+  {% if page.recording %}
   <audio controls>
 	<source src="{{ site.baseurl }}/music/{{ page.recording }}" type="audio/mpeg">
 	Your browser does not support the audio element.
   </audio>
+  {% endif %}
 
   <article class="post-content">
     {{ content }}
