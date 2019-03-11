@@ -72,4 +72,9 @@ defaults:
     values:
       folder: "pencil"
       grandfolder: "portfolio"
+  - scope:
+      path: ""
+      type: "piano"
+    values:
+      folder: "piano"
 
