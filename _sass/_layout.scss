@@ -14,6 +14,17 @@ width:100%;
 z-index: 50;
 }
 
+.landing-background {
+background-image: url("../img/mountrainier.jpg");
+background-size: cover;
+position:fixed;
+left:0px;
+top:57px;
+height:100%;
+width:100%;
+z-index: -50;
+}
+
 .site-title {
 font-size: 20px;
 line-height: $nav-height;
@@ -57,10 +68,12 @@ display: line;
     left: 0px;
     top: 0px;
     position: relative;
+	background-color:#fff;
     font-size: 20px;
     display: block;
+	margin:auto;
     opacity: 0.75;
-    width: 100%;
+    width: 500px;
     text-align: center;
     padding-top: 25px;
     line-height: 3em;
